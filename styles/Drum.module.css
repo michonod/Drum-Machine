@@ -1,0 +1,73 @@
+.drumContainer {
+  width: 1100px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.drumContainer .drum {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(22, 22, 22);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  transition: all 0.2s ease;
+  border-radius: 20px;
+}
+
+.drumContainer .drum:hover {
+  transform: scale(1.05);
+  z-index: 10;
+}
+
+.drum h1 {
+  font-size: 80px;
+  font-weight: 500;
+  color: rgba(70, 69, 69, 0.726);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.container .title {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  color: white;
+  font-weight: 300;
+}
+
+.drum {
+  position: relative;
+}
+.drum p {
+  font-size: 20px;
+  color: white;
+}
+.edit {
+  background-color: white;
+  font-size: 10px;
+  border: 2px solid rgb(0, 255, 34);
+  color: white;
+  background-color: transparent;
+  position: absolute;
+  padding: 10px;
+  top: 80px;
+  left: 80px;
+}
+
+.edit:hover {
+  transform: scale(1.02);
+  background-color: rgb(141, 184, 24);
+  color: black;
+}
